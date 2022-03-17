@@ -1,0 +1,55 @@
+* {
+    /* transition: all 1s; */
+    box-sizing: border-box ; 
+    margin: 0 ; 
+    padding: 0 ;    
+}
+
+body{
+    overflow:hidden;
+    background-color :rgba(0, 0, 0, 0.713)   ;
+
+}
+
+ 
+li , p {
+    list-style: none;
+    background-color :white   ;
+    width : 10px ; 
+    height  : 10px ; 
+    border-radius: 50% ;
+    position: absolute;
+}
+
+.S_1{
+    background-color :red  ;
+    box-shadow: .4px .4px 2px white ;
+    z-index : 1
+}
+
+p{
+    background-color :rgb(76, 208, 0)   ;
+    z-index : 1
+}
+
+span{
+    background-color :rgb(255, 255, 255) ; ; 
+    display : block;
+     width : 3px ; 
+     height: 3px ; 
+     border-radius: 50% ;
+      position : relative ; 
+      z-index : 2 ; 
+}
+
+.span_1{
+    
+    top : 1.5px ; 
+    left : 5px ; 
+}
+
+.span_2{
+   
+    top : 2.5px ; 
+    left : 5px ; 
+}
