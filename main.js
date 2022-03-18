@@ -110,6 +110,10 @@ document.addEventListener("keydown", function (e) {
         case "ArrowLeft":
             ArrowLeftKey();
             break;
+            
+         case " ":
+            clearAllflags() ; 
+            break;
     }
 
 });
