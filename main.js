@@ -135,14 +135,14 @@ setInterval(function () {
         array[0][0] = 0;
     }
     else if (array[0][0] <= 0) {
-        array[0][0] = window.innerWidth;
+        array[0][0] = window.innerWidth - 10;
     }
 
     if (array[0][1] > window.innerHeight) {
         array[0][1] = 0;
     }
     else if (array[0][1] <= 0) {
-        array[0][1] = window.innerHeight;
+        array[0][1] = window.innerHeight - 10;
     }
 
   
