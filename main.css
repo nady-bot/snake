@@ -21,6 +21,10 @@ li , p {
     position: absolute;
 }
 
+li{
+    box-shadow: .4px .4px 2px red  ;
+}
+
 .S_1{
     background-color :red  ;
     box-shadow: .4px .4px 2px white ;
